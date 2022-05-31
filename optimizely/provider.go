@@ -3,13 +3,13 @@ package optimizely
 import (
 	"context"
 
+	"github.com/dusan-dragon/terraform-provider-optimizely/optimizely/audience"
+	"github.com/dusan-dragon/terraform-provider-optimizely/optimizely/client"
+	"github.com/dusan-dragon/terraform-provider-optimizely/optimizely/environment"
+	"github.com/dusan-dragon/terraform-provider-optimizely/optimizely/flag"
+	"github.com/dusan-dragon/terraform-provider-optimizely/optimizely/project"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/diag"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/schema"
-	"github.com/pffreitas/optimizely-terraform-provider/optimizely/audience"
-	"github.com/pffreitas/optimizely-terraform-provider/optimizely/client"
-	"github.com/pffreitas/optimizely-terraform-provider/optimizely/environment"
-	"github.com/pffreitas/optimizely-terraform-provider/optimizely/flag"
-	"github.com/pffreitas/optimizely-terraform-provider/optimizely/project"
 )
 
 func Provider() *schema.Provider {

@@ -5,7 +5,7 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/pffreitas/optimizely-terraform-provider/optimizely/audience"
+	"github.com/dusan-dragon/terraform-provider-optimizely/optimizely/audience"
 )
 
 func (c OptimizelyClient) CreateAudience(aud audience.Audience) (audience.Audience, error) {

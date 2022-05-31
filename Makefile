@@ -1,6 +1,6 @@
 TEST?=$$(go list ./... | grep -v 'vendor')
 HOSTNAME=registry.terraform.io
-NAMESPACE=pffreitas
+NAMESPACE=dusan-dragon
 NAME=optimizely
 BINARY=terraform-provider-${NAME}
 VERSION=0.10

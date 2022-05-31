@@ -5,7 +5,7 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/pffreitas/optimizely-terraform-provider/optimizely/flag"
+	"github.com/dusan-dragon/terraform-provider-optimizely/optimizely/flag"
 )
 
 type OptimizelyFlag struct {
