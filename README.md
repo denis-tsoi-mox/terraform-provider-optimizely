@@ -13,7 +13,7 @@ terraform {
   required_providers {
     optimizely = {
       source = "dusan-dragon/optimizely"
-      version = "0.0.28"
+      version = "0.0.29"
     }
   }
 }

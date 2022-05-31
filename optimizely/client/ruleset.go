@@ -5,7 +5,7 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/dusan-dragon/optimizely-terraform-provider/optimizely/flag"
+	"github.com/dusan-dragon/terraform-provider-optimizely/optimizely/flag"
 )
 
 type RulesetType string

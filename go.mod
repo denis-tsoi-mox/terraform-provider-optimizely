@@ -1,4 +1,4 @@
-module github.com/pffreitas/optimizely-terraform-provider
+module github.com/dusan-dragon/terraform-provider-optimizely
 
 go 1.16
 
