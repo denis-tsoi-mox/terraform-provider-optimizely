@@ -1,6 +1,6 @@
 ### Terraform provider for Optimizely
 
-Find provider configuration [here](https://registry.terraform.io/providers/dusan-dragon/optimizely/latest/docs)
+Find provider configuration [here](https://registry.terraform.io/providers/pffreitas/optimizely/latest/docs)
 
 
 ### How to use 
@@ -12,8 +12,8 @@ Find provider configuration [here](https://registry.terraform.io/providers/dusan
 terraform {
   required_providers {
     optimizely = {
-      source = "dusan-dragon/optimizely"
-      version = "0.0.25"
+      source = "pffreitas/optimizely"
+      version = "0.0.18"
     }
   }
 }
